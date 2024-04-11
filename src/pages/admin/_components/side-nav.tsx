@@ -119,6 +119,20 @@ const SideNav = (props: TSideNavProps) => {
           },
         ],
       },
+////////Hoá đơn
+      {
+        title: t('Hoá đơn'),
+        basePath: '/invoice',
+        icon: <InventoryIcon />,
+        children: [
+          {
+            title: t('Danh sách hoá đơn'),
+            path: '/invoice/invoice-list',
+            permissions: [],
+          },
+        ],
+      },
+
       {
         title: t('Quản trị hệ thống'),
         basePath: '/system',

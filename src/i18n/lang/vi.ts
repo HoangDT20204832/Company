@@ -1357,6 +1357,17 @@ export const initial = {
   'Tên nguyên liệu': '',
   'Tên nhà hàng': '',
   'Số lượng ban đầu': '',
+  //Invoice
+  'Mã tham chiếu': '',
+'Thời gian thanh toán': '',
+'Thu ngân': '',
+'Tên đơn/ Khu vực': '',
+'Nguồn/ Đối tác': '',
+'Số khách hàng': '',
+'Trạng thái thanh toán': '',
+'Tất cả hoá đơn' :'',
+'Danh sách hoá đơn':'',
+'Hoá đơn':''
 };
 
 type TObj = typeof initial;

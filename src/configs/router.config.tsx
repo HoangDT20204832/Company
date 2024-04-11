@@ -26,6 +26,7 @@ import SystemRolesPage from '@/pages/admin/system/roles/page';
 import AuthLayout from '@/pages/auth/layout';
 import LoginPage from '@/pages/auth/login.page';
 import NotFoundPage from '@/pages/not-found.page';
+import InvoiceListTab from '@/pages/admin/invoice/invoice-list/page';
 
 export const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
       {
         path: 'inventory',
         children: [{ path: 'inventory-list', element: <InventoryListTab /> }],
+      },
+      {
+        path: 'invoice',
+        children: [{ path: 'invoice-list', element: <InvoiceListTab /> }],
       },
       {
         path: '/settings',
